@@ -1,0 +1,4 @@
+name: Podcast Feed
+markdown: redcarpet
+pygments: true
+baseurl: /podcast_feed
