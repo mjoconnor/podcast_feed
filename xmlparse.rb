@@ -17,6 +17,7 @@ results.each do |node|
 	episodes << {'epNumber'=>epNumber, 'title'=>title, 'guests'=>guests.delete_if{|guest| guest.empty?}, 'date'=>pubDate}
 end
 
+
 episodes.sort_by!{ |eps| eps["date"]}
 
 fname = "_includes/table.html"
