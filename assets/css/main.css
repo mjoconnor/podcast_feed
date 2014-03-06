@@ -1,0 +1,135 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #FFF;
+  font: 13.34px Helvetica, Arial, sans-serif;
+}
+
+h1 { margin: 1em; }
+
+p { margin: 1em 0; }
+
+a         { color: #00a; }
+a:hover   { color: #000; }
+a:visited { color: #a0a; }
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.site {
+  font-size: 115%;
+  text-align: justify;
+  width: 42em;
+  margin: 3em auto 2em;
+  line-height: 1.5em;
+}
+
+.wrapper {
+  width: 1024px;
+  margin: auto;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+}
+
+.header a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.title {
+  display: inline-block;
+  margin-bottom: 2em;
+}
+
+.title a {
+  color: #a00;
+}
+
+.title a:hover {
+  color: #000;
+}
+
+.header a.extra {
+  color: #aaa;
+  margin-left: 1em;
+}
+
+.header a.extra:hover {
+  color: #000;
+}
+
+.meta {
+  color: #aaa;
+}
+
+.footer {
+  font-size: 80%;
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
+}
+
+.footer .contact {
+  float: left;
+  margin-right: 3em;
+}
+
+.footer .contact a {
+  color: #8085C1;
+}
+
+.footer .rss {
+  margin-top: 1.1em;
+  margin-right: -.2em;
+  float: right;
+}
+
+.footer .rss img {
+  border: 0;
+}
+
+/*****************************************************************************/
+/*
+/* Table
+/*
+/*****************************************************************************/
+
+table {
+  margin: 10px 5px;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #555555;
+
+}
+
+th {
+  background: #BBBBBB;
+  text-align: center;
+  padding: 5px;
+}
+
+td {
+  text-align: left;
+  padding: 0 10px;
+}
